@@ -1,0 +1,22 @@
+.marrginT1{
+    margin-top: 1rem;
+}
+.marginT2{
+    margin-top: 2rem;
+}
+.marginB1{
+    margin-bottom: 1rem;
+}
+.marginB2{
+    margin-bottom: 2rem;
+}
+.marginAuto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.textColorP{
+    color: var(--color-primay);
+}
+.textCenter{
+    text-align: center;
+}

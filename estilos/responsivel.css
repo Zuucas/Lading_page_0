@@ -1,0 +1,61 @@
+@media screen and (min-width: 40rem){
+    header nav{
+        display: block;
+        text-align: center;
+    }
+    .cards{
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .card:nth-child(2n){
+        margin-top: 1rem;
+    }
+}
+@media screen and (min-width: 48rem){
+    header div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    header img,
+    header nav,
+    header .button {
+        margin: 0;
+    }
+}
+@media screen and (min-width: 72rem){
+    h1, h2 {
+        font-size: 4rem;
+    }
+    .conteiner{
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 72rem;
+    }
+    .conteiner .reverse{
+        flex-direction: row-reverse;
+    }
+    .colunaSobre{
+        flex: 2;
+    }
+    .colunaSobre p{
+        font-size: 1.25rem;
+        max-width: 16rem;
+    }
+    footer nav{
+        flex: 1;
+    }
+    .formulario{
+        flex: 3;
+    }
+    .btnTopo:hover{
+        border-bottom: 2px solid var(--color-secondary);
+        max-width: fit-content;
+    }
+}
+@media screen and (min-width: 80rem){
+    .conteiner{
+        max-width: 90rem;
+    }
+}
